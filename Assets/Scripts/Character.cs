@@ -23,3 +23,22 @@ public class Character
     }
 
 }
+
+public struct Weapon
+{
+    public string name;
+    public int damage;
+
+    public Weapon(string name, int damage)
+    {
+        this.name = name;
+        this.damage = damage;
+    }
+
+    public void PrintWeaponStats()
+    {
+        Debug.LogFormat("Hero: {0} - {1} EXP", name, damage);
+    }
+
+
+}
