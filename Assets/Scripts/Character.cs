@@ -17,7 +17,7 @@ public class Character
         this.name = name;
     }
 
-    public void PrintStatsInfo()
+    public virtual void PrintStatsInfo()
     {
         Debug.LogFormat("Hero: {0} - {1} EXP", name, exp);
     }
@@ -48,3 +48,24 @@ public struct Weapon
 
 
 }
+
+public class Paladin: Character
+{
+    public Paladin(string name): base(name)
+    {
+
+    }
+
+    public Weapon weapon;
+
+    public Paladin(string name, Weapon weapon): base(name)
+    {
+        this.weapon = weapon;
+    }
+
+    public override void PrintStatsInfo()
+    {
+        Debug.LogFormat("Hail {0} - take up your {1}!", name, weapon.name);
+    }
+}
+

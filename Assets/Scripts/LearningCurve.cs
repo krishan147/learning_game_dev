@@ -34,6 +34,13 @@ public class LearningCurve : MonoBehaviour
         hero.PrintStatsInfo();
         hero2.PrintStatsInfo();
 
+        Paladin knight = new Paladin("sir megacool", huntingBow);
+        knight.PrintStatsInfo();
+
+
+
+
+
 
 
     }
