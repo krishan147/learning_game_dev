@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LearningCurve : MonoBehaviour
 {
+    private Transform camTransform;
     void Start()
     {
         int playerLives = 10;
@@ -36,12 +37,12 @@ public class LearningCurve : MonoBehaviour
 
         Paladin knight = new Paladin("sir megacool", huntingBow);
         knight.PrintStatsInfo();
-
-
-
-
-
-
-
     }
+
+    void GetComponentExample()
+    {
+        camTransform = this.GetComponent<Transform>();
+        Debug.Log(camTransform.localPosition);
+    }
+
 }
