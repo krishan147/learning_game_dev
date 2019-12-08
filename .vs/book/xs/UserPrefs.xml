@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{F600CA95-FB2C-4656-F8D9-711F112E025D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LearningCurve.cs">
     <Files>
-      <File FileName="Assets/Scripts/LearningCurve.cs" Line="26" Column="2" />
-      <File FileName="Assets/Scripts/Character.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LearningCurve.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/Character.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4f6b070d-db8d-421f-b865-53f94001b3e0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a67cb336-9201-451a-a36f-11782921a99a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

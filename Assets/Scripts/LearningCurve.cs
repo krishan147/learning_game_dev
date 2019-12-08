@@ -10,7 +10,7 @@ public class LearningCurve : MonoBehaviour
 
         while (playerLives > 0)
         {
-            Debug.Log("Still alive!");
+            Debug.Log("Still alive!!!!");
             playerLives--;
         }
 
