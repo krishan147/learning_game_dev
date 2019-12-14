@@ -15,7 +15,7 @@ public class LearningCurve : MonoBehaviour
             playerLives--;
         }
 
-        Debug.Log("Player koooo'd");
+        Debug.Log("Player koooo'dd");
 
         Character hero = new Character();
         /*Debug.LogFormat("Hero: {0} - {1} EXP", hero.name, hero.exp);*/
