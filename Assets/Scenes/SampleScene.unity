@@ -276,4 +276,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ece7fd22ee85b49f08036189efe80afb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondNumber: 20
+  directionLight: {fileID: 170076733}
