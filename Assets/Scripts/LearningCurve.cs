@@ -5,6 +5,10 @@ using UnityEngine;
 public class LearningCurve : MonoBehaviour
 {
     private Transform camTransform;
+
+    public GameObject directionLight;
+    private Transform lightTransform;
+
     void Start()
     {
         int playerLives = 10;
@@ -37,12 +41,18 @@ public class LearningCurve : MonoBehaviour
 
         Paladin knight = new Paladin("sir megacool", huntingBow);
         knight.PrintStatsInfo();
+
+        //directionLight = GameObject.Find("Directional Light");
+
+        lightTransform = directionLight.GetComponent<Transform>();
+        Debug.Log(lightTransform.localPosition);
     }
 
     void GetComponentExample()
     {
         camTransform = this.GetComponent<Transform>();
         Debug.Log(camTransform.localPosition);
+ 
     }
 
 }
